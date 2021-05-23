@@ -3,6 +3,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+#backgroundgta6home {
+    position: relative;
+    text-align: center;
+}
+#backgroundgta6home img {
+    width:100%
+}
 p {
     color: black;
 }
@@ -10,6 +17,7 @@ p {
     background-color: #333333;
     color: white;
     overflow: hidden;
+    
 }
 a {
     text-decoration: none;
@@ -20,8 +28,9 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
     transition: ease 0.5s;
+    animation-fill-mode: both;
+    font-size: 1.3rem;
 }
 .nav a:hover {
     color: #ffff99;
@@ -31,7 +40,7 @@ a {
     margin-right: 50px;
 }
 #imgokejcom {
-    width: 40px;
+    width: 1.35rem;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -53,13 +62,184 @@ a {
     border: 1px solid black;
     padding: 10px;
 }
-#imgduze1 {
-    width: 100%;
+
+#galeriabignapisdiv {
+    text-align: center;
 }
 #galeriabignapis {
     color: black;
-    text-decoration: underline;
+    text-decoration: underline #ffff99;
     font-size: 1.4rem;
-    margin-left: 10%;
-    margin-bottom: 100px;
+
+}
+#search {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 180px;
+}
+#search li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    color: black; 
+    display: block; 
+    transition: ease 0.5s;
+    animation-fill-mode: both;
+    font-size: 0.9rem; 
+    width: 180px;
+}
+#search li a:hover:not(.header) {
+    background-color: #eee; 
+}
+#searchInput {
+    width: 150px;
+    height: 15px;
+    font-size: 0.9rem; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    outline: 1px solid rgb(168, 168, 168);
+    float: right;
+    margin: 5px;
+}
+#searchibutton {
+    width: 180px;
+    height: 15px;
+    display: inline;
+}
+#search-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+#searchIPodpowiedzi {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.galeria-container {
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 25px;
+    padding: 50px;
+}
+#gtaimg1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+#gtaimg2 {
+    grid-row: 2 /span 2;
+    grid-column: 1;
+}
+#gtaimg3 {
+    grid-row: 1;
+    grid-column: 2 /span 2;    
+}
+#gtaimg4 {
+    grid-row: 2;
+    grid-column: 2 /span 2;
+}
+#gtaimg5 {
+    grid-row: 3;
+    grid-column: 2;
+}
+#gtaimg6 {
+    grid-row: 3;
+    grid-column: 3;
+}
+#gtaimg7 {
+    grid-row: 1 /span 2;
+    grid-column: 4/span 2;
+}
+#gtaimg8 {
+    grid-row: 3;
+    grid-column: 4;
+}
+#gtaimg9 {
+    grid-row: 1 /span 2;
+    grid-column: 6 /span 3;
+}
+#gtaimg10 {
+    grid-row: 3;
+    grid-column: 5 /span 4;
+}
+#gtaimg11 {
+    grid-row: 4;
+    grid-column: 1;
+}
+#gtaimg12 {
+    grid-row: 5 /span 2;
+    grid-column: 1;
+}
+#gtaimg13 {
+    grid-row: 4;
+    grid-column: 2 /span 2;
+}
+#gtaimg14 {
+    grid-row: 5;
+    grid-column: 2 /span 2;
+}
+#gtaimg15 {
+    grid-row: 6;
+    grid-column: 2;
+}
+#gtaimg16 {
+    grid-row: 6;
+    grid-column: 3;
+}
+#gtaimg17 {
+    grid-row: 4 /span 2;
+    grid-column: 4/span 2;
+}
+#gtaimg18 {
+    grid-row: 6;
+    grid-column: 4;
+}
+#gtaimg19 {
+    grid-row: 4 /span 2;
+    grid-column: 6 /span 3;
+}
+#gtaimg20 {
+    grid-row: 6;
+    grid-column: 5 /span 4;
+}
+.galeria-container img {
+    width: 100%;
+    height: 100%;
+    transition: ease 2s;
+    animation-fill-mode: both;
+}
+.galeria-container img:hover {
+    /* animation-name: powiekszaniewgalerii; */
+    transform:scale(1.5) ;
+}
+.galeria-container div {
+    overflow: hidden;
+}
+/* @keyframes powiekszaniewgalerii {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.2);
+    }
+} */
+footer {
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 15px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.ikonyfooter {
+    display: inline;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    margin: 10px;
+    color: #333333;
 }
