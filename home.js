@@ -1,4 +1,3 @@
-const app = document.getElementById('app')
 const a = document.getElementById('search')
 a.style.display = "none"
 function searchOnclick() {

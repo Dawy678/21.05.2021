@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forum.css">
     <title>GTA VI</title>
     
     <style>
@@ -16,26 +16,42 @@
 </head>
 <body>
     <div class="nav">
-        <a id="home" href="home.html">Home</a>
-        <a id="galeria" href="#galeriabignapis">Galeria</a>
-        <a id="forum" href="forum.html">Forum</a>
+        <a id="home" class="ahover1 ahover2 ahover3 ahover" href="home.html">Home</a>
+        <a id="galeria" class="ahover1 ahover2 ahover3 ahover" href="home.html#galeriabignapis">Galeria</a>
+        <a id="forum" class="ahover1 ahover2 ahover3 ahover" href="forum.html">Forum</a>
         <div id="okejcom">
-            <a id="tekstokejcom" href="https://okej.com">Okej.com</a>
+            <a id="tekstokejcom" class="ahover1 ahover2 ahover3 ahover" href="https://okej.com">Okej.com</a>
             <img id="imgokejcom" src="img/gtavilogo.png">
         </div>
     </div>
+    <div id="forumbignapisdiv">
+        <span id="forumbignapis">Forum</span>
+    </div>
+    <div class="sekcja">
+        <div class="sekcjatytul"><span>Główna sekcja</span></div>
+            <div class="sekcjareszta">
+                <ul>
+                    <li><span>1. </span><i class="fa ikonywsekcji1 fa-check-square"></i><a href="zasady.html"> Zasady serwera</a></li></li>
+                    <li><span>2. </span><i class="fa ikonywsekcji1 fa-check-square"></i><a href="pytania.html"> Pytania i odpowiedzi</a></li></li>
+                </ul>
+            </div>
+    </div>
+    <div class="sekcja">
+        <div class="sekcjatytul"><span>Sekcja gier</span></div>
+        <div class="sekcjareszta">
+            <ul>
+                <li><i id="ikonywsekcji2" class="fa fa-minus-square"></i><a> Serwer 1</a></li>
+            </ul>
+        </div>
+    </div>
 
-    <input type="text" id="searchInput" onclick="searchOnclick()" onchange="searchOnchange()" onkeyup="search()" placeholder="Szukaj...">
-    <ul id="search">
-        <li><a id="homesearch" href="home.html">Home</a></li>
-        <li><a id="galeriasearch" href="home.html#galeriabignapis">Galeria</a></li>
-        <li><a id="forumsearch" href="forum.html">Forum</a></li>
-        <li><a id="zasadysearch" href="zasady.html">Zasady</a></li>
-        <li><a id="pytaniasearch" href="pytania.html">Pytania</a></li>
-        <li><a id="sekcjagiersearch" href="forum.html#sekcjagier">Sekcja gier</a></li>
-      </ul>
-    
-    <div id="app"></div>
+    <div id="ustawienia">
+        <button id="colorff6699" onclick="zmianakoloruff6699()">#ff6699</button>
+        <button id="color0066ff" onclick="zmianakoloru0066ff()">#0066ff</button>
+        <button id="colorcc3300" onclick="zmianakolorucc3300()">#cc3300</button>
+        <button id="ustawieniaButton"><i class="fa fa-cog"></i><span> Ustawienia</span></button>
+        <button id="zmienkolor" onclick="zmianakoloru()"><span>Zmień kolor</span></button>
+    </div>
     <footer>
         <i id="ikonafb" class="fa ikonyfooter fa-facebook-square"></i>
         <i id="ikonaig" class="fa ikonyfooter fa-instagram"></i>
