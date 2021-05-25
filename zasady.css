@@ -41,7 +41,7 @@ a {
     margin-right: 50px;
 }
 #imgokejcom {
-    width: 1.35rem;
+    width: 2rem;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -60,4 +60,19 @@ footer {
     font-size: 35px;
     margin: 10px;
     color: #333333;
+}
+#zasadybignapis {
+    font-size: 1.4rem;
+    text-decoration: underline #ffff99;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#zasadytext {
+    width: 90%;
+    font-size: 1.11rem;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
 }

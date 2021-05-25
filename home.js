@@ -21,3 +21,7 @@ function search() {
       }
     }
   }
+
+  function searchicon() {
+    a.style.display = ""
+  }

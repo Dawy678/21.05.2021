@@ -24,19 +24,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-.ahover {
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: ease 0.5s;
-    animation-fill-mode: both;
-    font-size: 1.3rem;
-}
-.ahover:hover {
-    color: #ffff99;
-    transition: 1s;
-}
 .ahover1 {
     float: left;
     text-align: center;
@@ -76,12 +63,25 @@ a {
     color: #cc3300;
     transition: 1s;
 }
+.ahover {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: ease 0.5s;
+    animation-fill-mode: both;
+    font-size: 1.3rem;
+}
+.ahover:hover {
+    color: #ffff99;
+    transition: 1s;
+}
 #okejcom {
     float: right;
     margin-right: 50px;
 }
 #imgokejcom {
-    width: 1.35rem;
+    width: 2rem;
     margin-top: 5px;
     margin-bottom: 5px;
 }
